@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.caja{
+    border: black 2px solid;
+}
+.contenedor {
+    background-color: white;
+    width: 90%;
+    height: 80vh;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1FR;
+    gap: 5px;
+    grid-template-areas:
+        "abc abc abc"
+        "d e fg"
+        "hi hi fg";
+}
+.abc{
+    grid-area: abc;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+.fg{
+    grid-area: fg;
+}
+.hi{
+    grid-area: hi;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 3rem;
+}

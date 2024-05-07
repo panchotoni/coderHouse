@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(121, 68, 172);
+}
+h1{
+    color: rgb(167, 149, 149);
+}
+h2 {
+    text-align: center;
+}
+.contenedor{
+    width: 500px;
+    padding: 20px;
+    border: purple solid 2px;
+    margin: 0 auto;
+}
+
+.backvioleta {
+    background-color: rgb(113, 13, 206);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <H1>Formulario</H1>
+    </header>
+
+    <body>
+        <form action="">
+            <div>
+                <label for="name">Nombre: </label>
+                <input type="text" name="name" placeholder="Ingrese su nombre">
+            </div>
+            <br>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="Ingrese su apellido">
+            </div>
+            <br>
+            <div>
+                <label for="pais">Nacionalidad</label>
+                <select name="pais" id="">
+                    <option value="arg">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="uy">Uruguay</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="email">*Email</label>
+                <input type="email" name="mail" >
+            </div>
+            <br>
+            <div>
+                <label for="pass">*Password</label>
+                <input type="password" name="pass" required>
+            </div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        </form>
+    </body>
+</body>
+</html>
